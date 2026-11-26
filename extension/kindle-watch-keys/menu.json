@@ -1,0 +1,11 @@
+{
+  "items": [{
+    "name": "Watch Keys v2",
+    "priority": 11,
+    "items": [
+      {"name": "Start reading (2 hours)", "action": "./control.sh", "params": "read", "exitmenu": true},
+      {"name": "Start diagnostics (15 min)", "action": "./control.sh", "params": "start", "exitmenu": true},
+      {"name": "Stop v2", "action": "./control.sh", "params": "stop", "exitmenu": true}
+    ]
+  }]
+}

@@ -1,0 +1,12 @@
+Native-reader key remote, v0.2 experimental
+GPL-3.0-or-later
+
+X11 wire protocol implementation adapted from:
+https://github.com/zampierilucas/kindle-button-mapper-rs/blob/master/src/xkey.rs
+Upstream author: zampierilucas and project contributors.
+Reference source SHA256: 05e6948e828dd15da3a12e441deabed0cdb2206afe86ebac02a4d40a899e32c5
+
+Protocol reference: https://www.x.org/releases/current/doc/xproto/x11protocol.pdf
+
+This version intentionally has no evdev/uinput/touch fallback.
+It does not modify the keyboard map, focus, firmware, or boot services.

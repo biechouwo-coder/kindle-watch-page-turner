@@ -1,0 +1,15 @@
+# Per-device credentials and generated local Shortcut URLs
+config.lua
+shortcut-urls.txt
+runtime/
+*.log
+
+# Local test environments and build/output debris
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+._*
+*.shortcut
+*.outdated
+.env
